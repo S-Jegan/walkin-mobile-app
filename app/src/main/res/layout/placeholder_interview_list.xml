@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_padding">
+
+    <View
+        android:id="@+id/plcCompanyName"
+        android:layout_width="250dp"
+        android:layout_height="10dp"
+        android:background="@color/placeholder_bg" />
+
+    <View
+        android:id="@+id/plcDesignation"
+        android:layout_width="230dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/placeholder_bg" />
+
+    <View
+        android:id="@+id/plcLocation"
+        android:layout_width="170dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/placeholder_bg" />
+
+    <View
+        android:id="@+id/plcQualification"
+        android:layout_width="200dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/placeholder_bg" />
+
+    <View
+        android:id="@+id/plcExperience"
+        android:layout_width="170dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/placeholder_bg" />
+
+    <View
+        android:id="@+id/plcInterviewDate"
+        android:layout_width="200dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/placeholder_bg" />
+
+    <View
+        android:id="@+id/plcInterviewImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/placeholder_bg" />
+
+
+</RelativeLayout>

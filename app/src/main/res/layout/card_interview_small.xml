@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <RelativeLayout
+            android:layout_width="187dp"
+            android:layout_height="match_parent">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/itemImage"
+                android:layout_marginTop="10dp"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_shutter" />
+
+
+            <com.like.LikeButton
+                android:id="@+id/likeButton1"
+                android:layout_width="25dp"
+                android:layout_margin="5dp"
+                app:icon_size="25dp"
+                app:icon_type="heart"
+                app:like_drawable="@drawable/ic_favorite_black_24dp"
+                app:unlike_drawable="@drawable/ic_favorite_border_black_24dp"
+                app:dots_primary_color="@color/colorAccent"
+                app:dots_secondary_color="@color/colorPrimary"
+                android:layout_height="25dp"
+                app:circle_end_color="@color/colorAccent"
+                app:anim_scale_factor="2"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemImage"
+            android:maxLines="1"
+            android:gravity="left"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:text="FedEx Ltd"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/companyName"
+            android:gravity="left"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:maxLength="20"
+            android:text="SOFTWARE ENGINEER"
+            android:textAllCaps="true"
+            android:textColor="@color/textColorBlack"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/designation"
+            android:gravity="left"
+            android:paddingTop="5dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="Chennai"
+            android:textColor="@color/textColorBlack"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

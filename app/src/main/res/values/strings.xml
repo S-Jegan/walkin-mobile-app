@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">WalkIn</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_walkin">Off Campus</string>
+    <string name="nav_it">IT Jobs</string>
+    <string name="nav_core">Core Engineering Jobs</string>
+    <string name="nav_govt">Government Jobs</string>
+    <string name="nav_sysadmn">ITES Jobs</string>
+    <string name="nav_bank">Bank Jobs</string>
+    <string name="nav_others">Bank Jobs</string>
+
+    <string name="nav_newlyadded">Newly Added Jobs</string>
+    <string name="nav_visa_sponsored">Visa Sponsored Jobs</string>
+    <string name="nav_resume">Resume Corner</string>
+    <string name="nav_location">Walkin Locations</string>
+    <string name="nav_recommended">Recommended Jobs</string>
+    <string name="nav_today">Today\'s Walkins</string>
+    <string name="nav_tomorrow">Tomorrow\'s Walkins</string>
+
+    <string name="nav_viewed">Viewed Jobs</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_favourite">Favourite Jobs</string>
+
+    <string name="nav_postnew">Post New Job</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_aboutus">About WalkIn</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+
+    <string name="main_search">Search</string>
+    <string name="main_filter">Filter</string>
+    <string name="menu_resume_download">Download Resume</string>
+
+    <string name="summary_vibrate">Vibrate on new notification</string>
+
+    <!-- TODO - add your ad unit Ids -->
+    <string name="admob_app_id">ca-app-pub-2564473833559285~1393383629</string>
+    <string name="banner_interview_details">ca-app-pub-2564473833559285/4813753880</string>
+    <string name="banner_interview_details_bottom">ca-app-pub-2564473833559285/7233717871</string>
+
+    <string name="hint_job_category">Category</string>
+    <string name="hint_job_location">Location</string>
+    <string name="hint_job_qualification">Qualification</string>
+    <string name="engg">B.E / M.E</string>
+    <string name="b_tech_m_tech">B.TECH / M.TECH</string>
+    <string name="b_sc_m_sc">B.Sc / M.Sc</string>
+    <string name="b_c_a_m_c_a">B.C.A / M.C.A</string>
+    <string name="b_arch_m_arch">B.Arch / M.Arch</string>
+    <string name="others">Others</string>
+
+    <string name="andhra_pradesh">Andhra Pradesh</string>
+    <string name="arunachal_pradesh">Arunachal Pradesh</string>
+    <string name="assam">Assam</string>
+    <string name="bihar">Bihar</string>
+    <string name="chhattisgarh">Chhattisgarh</string>
+    <string name="goa">Goa</string>
+    <string name="gujarat">Gujarat</string>
+    <string name="haryana">Haryana</string>
+    <string name="himachal_pradesh">Himachal Pradesh</string>
+    <string name="jammu_kashmir">Jammu Kashmir</string>
+    <string name="jharkhand">Jharkhand</string>
+    <string name="karnataka">Karnataka</string>
+    <string name="kerala">Kerala</string>
+    <string name="madhya_pradesh">Madhya Pradesh</string>
+    <string name="maharashtra">Maharashtra</string>
+    <string name="manipur">Manipur</string>
+    <string name="meghalaya">Meghalaya</string>
+    <string name="mizoram">Mizoram</string>
+    <string name="nagaland">Nagaland</string>
+    <string name="odisha">Odisha</string>
+    <string name="punjab">Punjab</string>
+    <string name="rajasthan">Rajasthan</string>
+    <string name="sikkim">Sikkim</string>
+    <string name="tamil_nadu">Tamil Nadu</string>
+    <string name="telangana">Telangana</string>
+    <string name="tripura">Tripura</string>
+    <string name="uttarakhand">Uttarakhand</string>
+    <string name="uttar_pradesh">Uttar Pradesh</string>
+    <string name="west_bengal">West Bengal</string>
+    <string name="andaman">Andaman</string>
+    <string name="chandigarh">Chandigarh</string>
+    <string name="dadra">Dadra Nagar Haveli</string>
+    <string name="daman">Daman Diu</string>
+    <string name="delhi">Delhi</string>
+    <string name="lakshadweep">Lakshadweep</string>
+    <string name="puducherry">Puducherry</string>
+    <string name="all_location">All Locations</string>
+    <string name="all_jobs">All Jobs</string>
+    <string name="all_degrees">All Degrees</string>
+    <string name="delete">Delete</string>
+
+    <string name="settings_notification">Notifications</string>
+    <string name="settings_vibration">Vibration</string>
+
+    <string name="about_privacy">Privacy Policy</string>
+    <string name="about_youtube">Watch us on YouTube</string>
+    <string name="feedback_text">Tell us what you like about the app, or what do you think could still be improved ?</string>
+    <string name="feedback_other">We would like to hear more from you, If you face any bugs in the app,
+        please share your experience with us at help@walkinappindia.com.
+        We would love to serve you with better quality.</string>
+    <string name="post_job">Your Job post will be shown to the users once it has been verified by the WalkIn App team.
+    You can directly send your vacancies to help@walkinappindia.com, we will post the job on behalf of you
+        after validating the authenticity of the information.</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="channel_name" >WalkIn FCM Channel</string>
+    <string name="channel_desc" >WalkIn FCM Channel</string>
+
+    <!--App Maintanance Strings -->
+    <string name="impt_notice">Oops, your app is under maintenance</string>
+    <string name="write_file">Allow this app to Download files.</string>
+
+    <!-- Array Strings for Job Search -->
+    <string-array name="experience">
+        <item>0 Year</item>
+        <item>1 Year</item>
+        <item>2 Years</item>
+        <item>3 Years</item>
+        <item>4 Years</item>
+        <item>5 Years</item>
+        <item>6 Years</item>
+        <item>7 Years</item>
+        <item>8 Years</item>
+        <item>9 Years</item>
+        <item>10 Years</item>
+        <item>11 Years</item>
+        <item>12 Years</item>
+        <item>13 Years</item>
+        <item>14 Years</item>
+        <item>15 Years</item>
+        <item>16 Years</item>
+        <item>17 Years</item>
+        <item>18 Years</item>
+        <item>19 Years</item>
+        <item>20 Years</item>
+        <item>21 Years</item>
+        <item>22 Years</item>
+        <item>23 Years</item>
+        <item>24 Years</item>
+        <item>25 Years</item>
+        <item>26 Years</item>
+        <item>27 Years</item>
+        <item>28 Years</item>
+        <item>29 Years</item>
+        <item>30 Years</item>
+    </string-array>
+
+    <string-array name="salary">
+        <item>1 Lac</item>
+        <item>2 Lacs</item>
+        <item>3 Lacs</item>
+        <item>4 Lacs</item>
+        <item>5 Lacs</item>
+        <item>6 Lacs</item>
+        <item>7 Lacs</item>
+        <item>8 Lacs</item>
+        <item>9 Lacs</item>
+        <item>10 Lacs</item>
+        <item>11 Lacs</item>
+        <item>12 Lacs</item>
+        <item>13 Lacs</item>
+        <item>14 Lacs</item>
+        <item>15 Lacs</item>
+        <item>16 Lacs</item>
+        <item>17 Lacs</item>
+        <item>18 Lacs</item>
+        <item>19 Lacs</item>
+        <item>20 Lacs</item>
+        <item>30 Lacs</item>
+        <item>40 Lacs</item>
+        <item>50 Lacs</item>
+    </string-array>
+
+
+</resources>

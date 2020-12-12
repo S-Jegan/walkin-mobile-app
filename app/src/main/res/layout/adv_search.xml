@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        app:cardBackgroundColor="@color/textColorWhite"
+        android:paddingTop="10dp"
+        android:layout_weight="0.02">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="202dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="@string/hint_job_category"
+                    android:padding="@dimen/cardTextTitlePadding"
+                    android:textSize="@dimen/cardTextTitle"
+                     android:textColor="@color/textColorBlack"
+                    android:layout_width="254dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:layout_weight="0.94" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="190dp"
+                    android:layout_height="142dp"
+                    android:paddingLeft="10dp"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:text="@string/nav_walkin"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox" />
+
+                    <CheckBox
+                        android:text="@string/nav_it"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox1" />
+
+                    <CheckBox
+                        android:text="@string/nav_core"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox2" />
+
+                    <CheckBox
+                        android:text="@string/nav_govt"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dp"
+                    android:paddingLeft="10dp"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:text="@string/nav_bank"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox12" />
+
+                    <CheckBox
+                        android:text="@string/nav_sysadmn"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox11" />
+
+                    <CheckBox
+                        android:text="@string/nav_others"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox21" />
+
+                    <CheckBox
+                        android:text="@string/all_jobs"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox31" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="229dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="236dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="@string/hint_job_qualification"
+                    android:padding="@dimen/cardTextTitlePadding"
+                    android:textSize="@dimen/cardTextTitle"
+                    android:textColor="@color/textColorBlack"
+                    android:layout_width="254dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:layout_weight="0.94" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:text="@string/engg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox51" />
+
+                    <CheckBox
+                        android:text="@string/b_tech_m_tech"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox52" />
+
+                    <CheckBox
+                        android:text="@string/b_sc_m_sc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox53" />
+
+                    <CheckBox
+                        android:text="@string/b_c_a_m_c_a"
+                        android:layout_width="match_parent"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox54" />
+
+                    <CheckBox
+                        android:text="@string/others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox59" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:text="B.Com / M.Com"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox55" />
+
+                    <CheckBox
+                        android:text="B.B.A / M.B.A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox56" />
+
+                    <CheckBox
+                        android:text="B.Ed / M.Ed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox57" />
+
+                    <CheckBox
+                        android:text="@string/b_arch_m_arch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox58" />
+
+                    <CheckBox
+                        android:text="@string/all_degrees"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:id="@+id/checkBox60" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="@string/hint_job_location"
+                    android:padding="@dimen/cardTextTitlePadding"
+                    android:textSize="@dimen/cardTextTitle"
+                    android:textColor="@color/textColorBlack"
+                    android:layout_width="254dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:layout_weight="0.94" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:text="@string/andhra_pradesh"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox511" />
+
+                    <CheckBox
+                        android:text="@string/arunachal_pradesh"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox512" />
+
+                    <CheckBox
+                        android:text="@string/assam"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox513" />
+
+                    <CheckBox
+                        android:text="@string/bihar"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox514" />
+
+                    <CheckBox
+                        android:text="@string/chhattisgarh"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox515" />
+
+                    <CheckBox
+                        android:text="@string/goa"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox516" />
+
+                    <CheckBox
+                        android:text="@string/gujarat"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox517" />
+
+                    <CheckBox
+                        android:text="@string/haryana"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox518" />
+
+                    <CheckBox
+                        android:text="@string/himachal_pradesh"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox519" />
+                    <CheckBox
+                        android:text="@string/jammu_kashmir"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox520" />
+
+                    <CheckBox
+                        android:text="@string/jharkhand"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox521" />
+
+                    <CheckBox
+                        android:text="@string/karnataka"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox522" />
+
+                    <CheckBox
+                        android:text="@string/kerala"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox523" />
+
+                    <CheckBox
+                        android:text="@string/madhya_pradesh"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox524" />
+
+                    <CheckBox
+                        android:text="@string/maharashtra"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox525" />
+
+                    <CheckBox
+                        android:text="@string/manipur"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox526" />
+
+                    <CheckBox
+                        android:text="@string/meghalaya"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox527" />
+
+                    <CheckBox
+                        android:text="@string/mizoram"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox528" />
+
+                    <CheckBox
+                        android:text="@string/others"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox529" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:text="@string/nagaland"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox531" />
+
+                    <CheckBox
+                        android:text="@string/odisha"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox532" />
+
+                    <CheckBox
+                        android:text="@string/punjab"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox533" />
+
+                    <CheckBox
+                        android:text="@string/rajasthan"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox534" />
+
+                    <CheckBox
+                        android:text="@string/sikkim"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox535" />
+
+                    <CheckBox
+                        android:text="@string/tamil_nadu"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox536" />
+
+                    <CheckBox
+                        android:text="@string/telangana"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox537" />
+
+                    <CheckBox
+                        android:text="@string/tripura"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox538" />
+
+                    <CheckBox
+                        android:text="@string/uttarakhand"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox539" />
+                    <CheckBox
+                        android:text="@string/uttar_pradesh"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox540" />
+
+                    <CheckBox
+                        android:text="@string/west_bengal"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox541" />
+
+                    <CheckBox
+                        android:text="@string/andaman"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox542" />
+
+                    <CheckBox
+                        android:text="@string/chandigarh"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox543" />
+
+                    <CheckBox
+                        android:text="@string/dadra"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox544" />
+
+                    <CheckBox
+                        android:text="@string/daman"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox545" />
+
+                    <CheckBox
+                        android:text="@string/delhi"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox546" />
+
+                    <CheckBox
+                        android:text="@string/lakshadweep"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox547" />
+
+                    <CheckBox
+                        android:text="@string/puducherry"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox548" />
+
+                    <CheckBox
+                        android:text="@string/all_location"
+                        android:onClick="onCheckboxClicked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/checkBox549" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
